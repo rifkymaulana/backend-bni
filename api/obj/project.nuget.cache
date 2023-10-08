@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fygtlBXR2LiZNhQGpEQpgm04saJs79oKFVMVP3+8H4FOXLlVlWN/TUsBULf7m1nhjmxE8APZQ7JWxX2vOMxv0Q==",
+  "dgSpecHash": "fiX1lQCqV4dMei7j7Qz00Q7RlEgRntI2w2fUVNJ80i5aIVVKUw3OtT56bZfUvjAH0B1qce3fb4qwnD1sFd8isQ==",
   "success": true,
   "projectFilePath": "/home/rifkymaulana/Repos/BNI/backend-bni/api/api.csproj",
   "expectedPackageFiles": [
@@ -15,10 +15,10 @@
     "/home/rifkymaulana/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "/home/rifkymaulana/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.11/microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "/home/rifkymaulana/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.11/microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
-    "/home/rifkymaulana/.nuget/packages/microsoft.entityframeworkcore.design/7.0.8/microsoft.entityframeworkcore.design.7.0.8.nupkg.sha512",
+    "/home/rifkymaulana/.nuget/packages/microsoft.entityframeworkcore.design/7.0.11/microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512",
     "/home/rifkymaulana/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.11/microsoft.entityframeworkcore.relational.7.0.11.nupkg.sha512",
     "/home/rifkymaulana/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.11/microsoft.entityframeworkcore.sqlserver.7.0.11.nupkg.sha512",
-    "/home/rifkymaulana/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.8/microsoft.entityframeworkcore.tools.7.0.8.nupkg.sha512",
+    "/home/rifkymaulana/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.11/microsoft.entityframeworkcore.tools.7.0.11.nupkg.sha512",
     "/home/rifkymaulana/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/rifkymaulana/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/home/rifkymaulana/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
