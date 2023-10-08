@@ -1,8 +1,10 @@
+using api.BusinessLogic;
 using api.Contracts;
 using api.Data;
 using api.Repositories;
 using api.Services;
 using Microsoft.EntityFrameworkCore;
+using SoapCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 // Add Repositories
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddSoapCore();
+builder.Services.AddScoped<ISoapService, SoapService>();
 
 // Add Services
 builder.Services.AddScoped<EmployeeService>();
@@ -31,6 +35,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.UseSoapEndpoint<ISoapService>("/Service.asmx", new SoapEncoderOptions(), SoapSerializer.XmlSerializer);
+});
 
 app.UseHttpsRedirection();
 
